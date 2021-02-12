@@ -1,6 +1,6 @@
 const main = document.querySelector('main');
 const imdbID = window.location.search.match(/imdbID=(.*)/)[1];
-const BASE_URL = 'http://localhost:5000/api/';
+const BASE_URL = 'http://localhost:5000/';
 function getMovie(imdbID) {
   return fetch(`${BASE_URL}movie/${imdbID}`)
     .then(res => res.json());
