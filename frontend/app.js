@@ -2,7 +2,7 @@ const form = document.querySelector('form');
 const searchInput = document.querySelector('input');
 const resultsList = document.querySelector('#results')
 
-const BASE_URL = 'http://localhost:5000/api/';
+const BASE_URL = 'http://localhost:5000/';
 
 form.addEventListener('submit', formSubmitted);
 
